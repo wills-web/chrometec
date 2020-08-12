@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Avenir;
+    src: url(../font/Avenir.ttc);
+}
+
+.logo-container {
+    margin-top: 38vh;
+    width: 100%;
+}
+
+.chrometec-logo {
+    width: 55%;
+    height: auto;
+}
+
+.contact-container {
+    font-family: Avenir;
+    /*font-weight: bold;*/
+    color: #aaa;
+
+    margin-bottom: 8vh;
+}
+
+.social-row {
+    font-size: 1.7rem;
+    padding-bottom: 1vh;
+}
+
+a {
+    color: #aaa;
+    position: relative;
+    transition: top ease 0.1s;
+    top: 0vh;
+}
+
+a:hover {
+    color: #444;
+    top: -0.2vh;
+}
+
+body {
+    background: #fff;
+    text-align: center;
+}

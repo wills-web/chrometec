@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Avenir;
+    src: url(../font/Avenir.ttc);
+  }
+
+.header-container {
+    margin-top: 28vh;
+}
+
+.header-img {
+    max-width: 85%;
+    width: 600px;
+    height: auto;
+}
+
+.contact-container {
+    text-align: center;
+    margin-top: 35vh;
+
+    font-family: Avenir;
+    font-weight: bold;
+    font-size: 0.8rem;
+
+    z-index: 19;
+}
+
+.river-svg {
+    width: 104%;
+    margin-left: -2%;
+    margin-top: -29vh;
+    z-index: -1;
+}
+
+.river-container {
+    margin-top: -5vh;
+}
+
+.river-img{ 
+    text-align: center;
+    margin-top: -106vh;
+    margin-left: -9.6vw;
+    width: 125%;
+    z-index: 20;
+    opacity: 70%;
+}
+
+body {
+    background-color: #6b7586;
+    color: #494e59;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

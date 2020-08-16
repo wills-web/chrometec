@@ -12,10 +12,20 @@
     height: auto;
 }
 
+.social-row {
+    font-size: 1.6rem;
+    padding-bottom: 1vh;
+}
+
 @media only screen and (min-device-width: 700px) {
     .chrometec-logo {
         max-width: 25%;
         height: auto;
+    }
+
+    .social-row {
+        font-size: 1.4rem;
+        padding-bottom: 1vh;
     }
 }
 
@@ -25,11 +35,6 @@
     font-size: 0.8rem;
 
     margin-bottom: 2vh;
-}
-
-.social-row {
-    font-size: 1.7rem;
-    padding-bottom: 1vh;
 }
 
 a {
